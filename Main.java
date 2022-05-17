@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class Main
 {
    public static void main(String[] args)
-   {/* w  w  w.  j  a v  a 2  s.  co  m*/
+   {
       Employee[] employees = {
          new Employee("J", "Red", 51000, "IT"),
          new Employee("A", "Green", 71600, "IT"),
@@ -27,7 +27,6 @@ public class Main
       System.out.println("Complete Employee list:");
       list.stream().forEach(System.out::println);
       
-
       // Functions for getting first and last names from an Employee
       Function<Employee, String> byFirstName = Employee::getFirstName;
       Function<Employee, String> byLastName = Employee::getLastName;
