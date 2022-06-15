@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Alphabetical_Order
+public class sortNameInOrder2
+// Alphabetical_Order
 {
     public static void main(String[] args) 
     {
@@ -27,6 +28,8 @@ public class Alphabetical_Order
                 }
             }
         }
+        s1.close();
+        s.close();
         System.out.print("Names in Sorted Order:");
         for (int i = 0; i < n - 1; i++) 
         {
